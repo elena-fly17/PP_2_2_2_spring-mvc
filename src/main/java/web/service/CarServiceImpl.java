@@ -1,5 +1,4 @@
 package web.service;
-
 import org.springframework.stereotype.Component;
 import web.dao.CarDao;
 import web.dao.CarDaoImpl;
@@ -10,7 +9,6 @@ import java.util.List;
 public class CarServiceImpl implements CarService {
 
     private final CarDao carDao;
-
     public CarServiceImpl(CarDaoImpl carDaoImpl) {
         this.carDao = carDaoImpl;
     }

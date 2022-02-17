@@ -1,5 +1,4 @@
 package web.dao;
-
 import org.springframework.stereotype.Component;
 import web.models.Car;
 import java.util.ArrayList;
@@ -9,7 +8,6 @@ import java.util.List;
 public class CarDaoImpl implements CarDao {
 
     private final List<Car> listCars;
-
     {
         listCars = new ArrayList<>();
         listCars.add(new Car("Honda", "red", 1111));
